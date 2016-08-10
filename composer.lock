@@ -157,7 +157,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:halles/wp-composer-theme.git",
-                "reference": "3b244390dba00eaaa86dd974dcabc978f0799845"
+                "reference": "79b07a69733d42b9e2cd77689f8d802db2f5cc0c"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -169,7 +169,7 @@
                     "email": "matias.halles@wikot.com"
                 }
             ],
-            "time": "2016-08-10 08:34:01"
+            "time": "2016-08-10 09:07:58"
         },
         {
             "name": "wordpress",
