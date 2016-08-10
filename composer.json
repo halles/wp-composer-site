@@ -9,12 +9,12 @@
   ],
   "require": {
     "wordpress": "4.5.*",
-    "wpackagist-plugin/w3-total-cache": "0.9.2",
+    "wpackagist-plugin/w3-total-cache": "*",
     "wpackagist-plugin/google-analytics-for-wordpress": "5.5.2"
   },
   "require-dev": {
-    "wpackagist-plugin/debug-bar": "0.8.2",
-    "wpackagist-plugin/debug-bar-console": "0.3"
+    "wpackagist-plugin/debug-bar": "*",
+    "wpackagist-plugin/debug-bar-console": "*"
   },
   "repositories":[
       {
@@ -26,15 +26,15 @@
         "package" : {
           "name"    : "wordpress",
           "type"    : "webroot",
-          "version" : "4.5.2",
+          "version" : "4.5.3",
           "dist"    : {
-            "url"  : "https://github.com/WordPress/WordPress/archive/4.5.2.zip",
+            "url"  : "https://github.com/WordPress/WordPress/archive/4.5.3.zip",
             "type" : "zip"
           },
           "source" : {
             "url"       : "https://github.com/WordPress/WordPress",
             "type"      : "git",
-            "reference" : "4.5.2"
+            "reference" : "4.5.3"
           },
           "require" : {
             "fancyguy/webroot-installer" : "1.0.0"
