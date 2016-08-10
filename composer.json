@@ -9,6 +9,7 @@
   ],
   "require": {
     "wordpress": "4.5.*",
+    "halles/wp-composer-theme": "dev-master",
     "wpackagist-plugin/w3-total-cache": "*",
     "wpackagist-plugin/google-analytics-for-wordpress": "5.5.2"
   },
@@ -20,6 +21,10 @@
       {
           "type":"composer",
           "url":"https://wpackagist.org"
+      },
+      {
+        "type": "git",
+        "url": "git@github.com:halles/wp-composer-theme.git"
       },
       {
         "type"    : "package",

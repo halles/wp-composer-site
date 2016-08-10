@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "210472f5868040070e8f77b1913302e8",
-    "content-hash": "40004ddad7879ec18f8f866214e41d58",
+    "hash": "bb97eaf46815267b47d8e962cbb5031f",
+    "content-hash": "fbe48211a89c8f63ef7d485b24c8745a",
     "packages": [
         {
             "name": "composer/installers",
@@ -152,6 +152,26 @@
             "time": "2013-01-29 22:51:45"
         },
         {
+            "name": "halles/wp-composer-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:halles/wp-composer-theme.git",
+                "reference": "3b244390dba00eaaa86dd974dcabc978f0799845"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "authors": [
+                {
+                    "name": "Matias Halles",
+                    "email": "matias.halles@wikot.com"
+                }
+            ],
+            "time": "2016-08-10 08:34:01"
+        },
+        {
             "name": "wordpress",
             "version": "4.5.3",
             "source": {
@@ -255,7 +275,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "halles/wp-composer-theme": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
