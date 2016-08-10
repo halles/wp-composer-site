@@ -11,7 +11,8 @@
     "wordpress": "4.5.*",
     "halles/wp-composer-theme": "dev-master",
     "wpackagist-plugin/w3-total-cache": "*",
-    "wpackagist-plugin/google-analytics-for-wordpress": "5.5.2"
+    "wpackagist-plugin/google-analytics-for-wordpress": "5.5.2",
+    "wpackagist-plugin/maintenance": "2.7.*"
   },
   "require-dev": {
     "wpackagist-plugin/debug-bar": "*",
