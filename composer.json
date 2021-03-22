@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "wordpress": "4.5.*",
+    "johnpbloch/wordpress": "4.5.*",
     "halles/wp-composer-theme": "dev-master",
     "wpackagist-plugin/w3-total-cache": "*",
     "wpackagist-plugin/google-analytics-for-wordpress": "5.5.2",
@@ -46,10 +46,6 @@
             "fancyguy/webroot-installer" : "1.0.0"
           }
         }
-      },
-      {
-        "type": "composer",
-        "url": "https://languages.koodimonni.fi"
       }
   ],
   "autoload": {
